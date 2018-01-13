@@ -2,10 +2,14 @@ import time, os, sys, glob, math, threading
 
 null = 0
 #=====PERSONAL====#
-livingKeep = 150
+livingKeep = 120
 moneySave = 150
 phoneBill = 18
-perTotal = (livingKeep + moneySave + phoneBill)
+Amazon = 8
+Spotify = 5
+Soundcloud = 10
+Insurance = 5
+perTotal = (livingKeep + moneySave + phoneBill + Amazon + Spotify + Soundcloud + Insurance)
 #=======CAR=======#
 carTax = null
 carIns = null
